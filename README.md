@@ -33,19 +33,20 @@ Observe the responses from the SIM800C module.
 ## List of AT Commands
 Here are some useful AT commands for testing the SIM800C module:
 
-AT: Check if the module is working (should return OK).
-AT+CPIN?: Check SIM card status.
-AT+CSQ: Check signal strength.
-AT+CREG?: Check network registration status.
-AT+CGATT?: Check GPRS attachment status.
-AT+CIPSHUT: Shut down any open connections.
-AT+CIPSTATUS: Get connection status.
-AT+CIPMUX=0: Set single connection mode.
-AT+CSTT="your_apn": Set APN for your network provider (replace your_apn with your actual APN, e.g., dialogbb for Dialog in Sri Lanka).
-AT+CIICR: Bring up wireless connection.
-AT+CIFSR: Get local IP address.
-AT+CIPSTART="TCP","<server_ip>","<port>": Start a TCP connection (replace <server_ip> and <port> with your server's IP address and port).
-AT+CIPSEND: Send data through the established connection.
+* AT: Check if the module is working (should return OK).
+* AT+CPIN?: Check SIM card status.
+* AT+CSQ: Check signal strength.
+* AT+CREG?: Check network registration status.
+* AT+CGATT?: Check GPRS attachment status.
+* AT+CIPSHUT: Shut down any open connections.
+* AT+CIPSTATUS: Get connection status.
+* AT+CIPMUX=0: Set single connection mode.
+* AT+CSTT="your_apn": Set APN for your network provider (replace your_apn with your actual APN, e.g., dialogbb for Dialog in Sri Lanka).
+* AT+CIICR: Bring up wireless connection.
+* AT+CIFSR: Get local IP address.
+* AT+CIPSTART="TCP","<server_ip>","<port>": Start a TCP connection (replace <server_ip> and <port> with your server's IP address and port).
+* AT+CIPSEND: Send data through the established connection.
+
 Example AT Commands for Mobitel or Hutch
 Replace your_apn with the actual APN for Mobitel or Hutch:
 
